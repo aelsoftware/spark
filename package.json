@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@inertiajs/inertia": "^0.8.6",
+        "@inertiajs/inertia-vue": "^0.5.9",
+        "axios": "^0.19",
+        "cross-env": "^7.0.3",
+        "focus-trap": "^6.8.1",
+        "laravel-mix": "^6.0.6",
+        "postcss": "^8.1.14",
+        "postcss-import": "^14.0",
+        "tailwindcss": "^2.0.1",
+        "vue": "^2.5.17",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.10"
+    }
+}
