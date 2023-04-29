@@ -10,9 +10,10 @@
         }
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^8.0",
         "ext-bcmath": "*",
         "ext-json": "*",
+        "illuminate/contracts": "^9.0",
         "inertiajs/inertia-laravel": "^0.5.1|^0.6.4",
         "laravel/cashier-paddle": "^1.5.5"
     },
